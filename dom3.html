@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initiald-scale=1.0">
+    <title>Event Listner</title>
+</head>
+<body>
+    <!-- Normal html -->
+    <!-- <h1>Hello Bacho </h1>
+    <p id="js"></p>
+    <script>
+        document.addEventListener("click", hello);
+        function hello(){
+            document.getElementById("js").innerText="Hello Bachcho."
+        }
+    </script> -->
+
+
+    <h1>Do You Know Me??</h1>
+    <h1 id="justice"></h1>
+    <button ondblclick="hey()" id="jss">onclick</button>
+    <script>
+        document.addEventListener("mouseenter", right);
+        function right() {
+           document.getElementById("justice").innerText="Chal hatt be" ;
+        }
+        function hey(){
+         document.getElementById("jss").innerText="Submitted";
+         document.getElementById("jss").style.color="white";
+         document.getElementById("jss").style.backgroundColor="red";
+         document.getElementById("jss").style.padding="10px";
+
+
+        }
+    </script>
+</body>
+</html>

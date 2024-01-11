@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Method</title>
+</head>
+<body>
+    <script>
+
+        var now = new Date();
+
+        document.write(now + "<br>")
+
+
+        //toDateString ---> It gives the time in readable form like no gmt and other things only time.
+
+        
+        
+        var now = new Date();
+
+        document.write(now.toDateString() + "<br>")
+
+
+        //getDate ---> It gives the normal date. Like today is 21.
+
+        
+        
+        var now = new Date();
+
+        document.write(now.getDate() + "<br>")
+
+        //getMonth ---> It gives the normal Month in number . Like jaunuary is 0.
+
+        
+        
+        var now = new Date();
+
+        document.write(now.getMonth() + "<br>")
+
+        //getDay ---> It gives the day of today like today is saturday.In number system. Its number is starts form 1.
+
+        
+        
+        var now = new Date();
+        // var now = new Date('december 24 2017');
+
+        document.write(now.getDay() + "<br>")
+
+
+        //getFullYear ---> It gives the  year. Like today is 2023.
+
+        
+        
+        var now = new Date();
+
+        document.write(now.getFullYear() + "<br>");
+
+
+         //getHours ---> It gives the  time in hours like now the time is 8:32, it returns you 8.
+
+        
+        
+         var now = new Date();
+
+         document.write(now.getHours() + "<br>");
+
+
+         //getMinutes ---> It gives the  time in minutes like now the time is 8:32, it returns you 32.
+
+        
+        
+         var now = new Date();
+
+         document.write(now.getMinutes() + "<br>");
+
+         //getMilliseconds ---> It gives the  current time in millisecond.
+
+        
+        
+         var now = new Date();
+
+         document.write(now.getMilliseconds() + "<br>");
+
+
+         //setDate --->it shows the set dates, time and date.
+
+        
+        
+         var now = new Date();
+          now.setDate(28);
+          now.setFullYear(2024);
+
+         document.write(now + "<br>");
+
+
+
+
+
+
+
+
+        
+
+
+    </script>
+</body>
+</html>

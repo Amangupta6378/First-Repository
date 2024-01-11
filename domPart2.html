@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Part 2</title>
+</head>
+<body>
+
+    <ul>
+        <li>one</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <script>
+        //AppendChild(Add element)
+
+         
+        // var title = document.createElement("h2");
+        // title.className = "pwSkills";
+        // title.style.fontSize = "50px";
+        // title.textContent = "Hello Namaste Aman Gupta";
+        // console.log(title);
+        // document.body.appendChild(title);
+
+        // let aman = document.createElement("h3");
+        // aman.className ="beast";
+        // aman.style.fontSize = "34px";
+        // console.log(aman);
+        // aman.textContent = "Aman is is learning DOM Manipulation";
+        // document.body.appendChild(aman);
+
+        // //Remove Element
+        // let ul = document.querySelector("ul");
+        // console.log(ul);
+
+        // let lists = document.querySelectorAll("li");
+        // console.log(lists);
+        // for(list of lists){
+        //     ul.removeChild(list);
+        // }
+
+        let aman = document.createElement("h2");
+        aman.className = "yahoo";
+        aman.style.fontSize= "40px";
+        aman.textContent ="What is going on yara.";
+        document.body.appendChild(aman);
+        console.log(aman);
+
+
+        // Remove elements
+        var ul = document.querySelector("ul");
+        console.log(ul);
+
+        let lists = document.querySelectorAll("li");
+        console.log(lists);
+
+
+        for(list of lists){
+            ul.removeChild(list);
+        }
+
+
+        // ul.removeChild(li);
+
+
+
+
+
+
+    </script>
+</body>
+</html>

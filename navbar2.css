@@ -1,0 +1,13 @@
+body{
+    height: 2000px;
+}
+
+
+.header-scroll{
+    background-color: black;
+
+}
+
+.navbar{
+    background-image: url(./i3);
+}

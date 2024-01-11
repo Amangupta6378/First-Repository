@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = [3,7,4,7,3,10];
+        var b = a.map(test);
+
+        function test(x){
+            return x*10;
+        }
+
+        var pr = [
+            {Fname : "Aman", Lname : "gupta"},
+            {Fname : "Saurav", Lname : "Sharma"},
+            {Fname : "Mithlesh", Lname : "thakur"}
+            
+        ]
+        var limit = pr.map(paper);
+        document.write(limit);
+
+        function paper(i){
+            return i.Fname+" "+ i.Lname;
+        }
+        // document.write(a);
+    </script>
+</body>
+</html>

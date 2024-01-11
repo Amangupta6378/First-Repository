@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Syne', sans-serif;
+}
+.main{
+    position: relative;
+    height: 100vh;
+}
+.main__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
+/* ==================HEADER & NAV================== */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 16px rgba(19, 19, 19, 0.32);
+    z-index: 1;
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__logo{
+    color:  black;
+    font-weight: 500;
+    transition: color .4s;
+}
+
+.nav__actions{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.nav__search,.nav__login, .nav__toggle, .nav__close{
+    font-size: 1.25rem;
+    color: black;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+:is(.nav__search,.nav__login, .nav__toggle,.nav__login,.nav__link):hover{
+    color: blue;
+
+}
+
+@media screen and (max-width: 1023px){
+    .nav__menu{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.413);
+        width: 100%;
+        padding-block: 4.5rem 4rem;
+        transition: top .4s;
+    }
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    text-align: center;
+}
+
+.nav__link{
+    color: black;
+    font-weight: bold;
+    transition: color .4s;
+}
+
+.nav__close{
+    position: absolute;
+    top: 1.15rem ;
+    right: 1.5rem ;
+}

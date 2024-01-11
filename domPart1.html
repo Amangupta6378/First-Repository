@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- id -->
+    <h3 id="one"><span>hello</span>Namaste</h3>
+
+    <!-- class -->
+    <ul>
+        <li class="tech">One</li>
+        <li class="tech">Two</li>
+        <li class="tech"><span>hi</span>Three</li>
+    </ul>
+
+
+    <!-- tagname -->
+    <h4>Hey</h4>
+    <h4>Namaste</h4>
+    <h4>Hola</h4>
+    <h4>ji</h4>
+    <h4>Kaise ho</h4>
+
+
+
+    <!-- Query Selector -->
+
+    <h2>Bhola</h2>
+    <h2 class="classs">Kya hal h</h2>
+    <h2 class="nice">Nice image</h2>
+    <h2 id="ids">tumhara??</h2>
+
+
+    <script>
+        //id-->
+        // var var1= document.getElementById("one");
+        // console.log(var1.innerText);//innerText is used for take only the text in the element. Its output is (helloNamaste). 
+        // console.log(var1.innerHTML);//innerHTML is also take the tags inside the element you called  like it take (<span>hello</span>Namaste) is its output.
+
+
+        //class --->
+
+        // var var2 = document.getElementsByClassName("tech");
+        // console.log(var2);
+        // console.log(var2[1].innerText);
+        // var2[1].innerText = "Node js";
+        // console.log(var2[2].innerHTML);
+
+
+        //TagName--->
+
+        // var var3 = document.getElementsByTagName("h4");
+        // console.log(var3);
+        // var3[1].innerText = "yahoo";
+        // var3[2].style.color = "red";
+
+
+        // Query Selector
+
+        // var var4 = document.querySelector(".classs");
+        // console.log(var4);
+
+        // var4.className = "double";
+        // var4.classList="hello hola ji";
+        // var4.setAttribute("title", "anurag");
+        // var4.style.backgroundColor ="blue"; 
+
+
+
+        // id --->
+        let var2 = document.getElementById("one");
+        console.log(var2);
+        document.write(var2.innerText + "<br>");
+        document.write(var2.innerHTML+"<br>");
+        console.log(var2.innerHTML );
+
+
+
+        // CLASS--->
+        let var3 = document.getElementsByClassName("tech");
+        console.log(var3);
+        document.write(var3[1].innerText + "<br>");
+        document.write(var3[2].innerHTML + "<br>");
+        console.log(var3[2].innerHTML);
+
+
+        // TagName--->
+        let var4 = document.getElementsByTagName("h4");
+        console.log(var4);
+        document.write(var4[1].innerText);
+        var4[1].innerText="yahoioo";
+        var4[1].style.backgroundColor ="red";
+        var4[1].style.color = "white";
+
+        // document.write(var4[1].innerText + "<br>") ;
+
+        // By query selector--->
+        let var5 = document.querySelector(".nice");
+        document.write(var5.innerText);
+        var5.style.color="blue";
+        document.write(var5.innerText);
+        var5.setAttribute=cla5
+
+
+
+
+
+
+
+        
+
+
+
+
+    </script>
+</body>
+</html>

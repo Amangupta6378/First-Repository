@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const a = [34,64,34,65,34];
+        a[1] = 53;
+        a[2] = 74;
+        //we can not declare the variable which is declared in const like a( is declared in const ). But we can change their elements on thei index as we have did it later.
+        console.log(a);
+        document.write(a + "<br>");
+
+
+        const b = {
+            Name : "Aman",
+            Age : 23,
+            // Name : "Rahul",
+            // Age : 63
+        };
+        
+        // b.Name = "Krishna";
+        console.log(b.Name);
+        document.write(b.Name + " "+ b.Age);
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color In Javascript</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            padding: 20px;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 20px;
+            background-color: red;
+            color: white;
+            border: 1px solid black;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <button id="button">
+        Change the color
+    </button>
+<script>
+    const btn = document.getElementById("button");
+    const RandomColor = () =>{
+        let value = "0123456789ABCDEF";
+        let cons ="#";
+        for(let i=0; i<6; i++){
+            cons = cons + value[Math.floor(Math.random() * 16)];
+        }
+        return cons;
+    };
+    console.log(RandomColor());
+
+    function changeRandomColor() {
+        document.body.style.backgroundColor = RandomColor();
+    }
+    btn.addEventListener("click", changeRandomColor);
+
+    // const btn = getElementById("button");
+    // const RandomColor = () =>{
+    //     let value = "0123456789ABCDEF";
+    //     let cons = "#";
+    //     for(let i=0; i<6; i++){
+    //         cons = cons + value[Math.floor(Math.random()*16)];
+    //     }
+    //     return cons;
+    // };
+    
+    // function ChangeRandomColor(){
+    //     document.body.style.backgroundColor = RandomColor();
+    // }
+    // btn.addEventListener("click", ChangeRandomColor);
+</script>
+</body>
+</html>

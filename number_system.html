@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number system</title>
+</head>
+<body>
+    <!-- Number system is used to change any datatype in a number -->
+    <script>
+        var a ='93';
+        var b = true;
+        var num = Number(a);
+        var num2 = Number(b);
+
+        document.write(num+10 + "<br>");
+        document.write(a+10 + "<br>");
+        document.write(num2 + "<br>");
+
+
+        // ParseInt() ---> This function is used for change the any type of value into interger type.
+
+        var c = 34.64;
+
+        var num3 = parseInt(c);
+        document.write(num3 + "<br>");
+
+
+
+
+        // ParseFloat() ---> This function is used for change the any type of value into float type.
+
+        var d = 34.64;
+
+        var num4 = parseFloat(d);
+        document.write(num4 + "<br>");
+
+
+
+        //isFinite() ---> It check the finite number. If the number is finit it returns true(42,46,34,45.46) if not it returns false("hello", "Infinty",any string)
+        var e = 45;
+        var e2 = "hello";
+
+        var num6 = isFinite(e);
+        var num61 = isFinite(e2);
+        document.write(num6 + "<br>") ;
+        document.write(num61 + "<br>");
+
+
+
+    </script>
+</body>
+</html>

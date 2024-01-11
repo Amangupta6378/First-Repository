@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css" integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./navbar.css">
+    <title>Navbar by javascript</title>
+</head>
+<body>
+    <!--================ Header ================-->
+    <div class="header header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Logo</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About Us</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Services</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Features</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav__close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!-- search button -->
+                <i class="ri-search-line  nav__search " id="search-btn"></i>
+
+                <!-- login button-->
+                <i class="ri-user-3-line nav__login" id="login-btn"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-2-line"></i>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <!--================ search================ -->
+    <div class="search" id="search">
+       
+    </div>
+
+    <!--================ Login ================-->
+    <div class="login" id="login">
+
+    </div>
+
+    <!--================ Main ================-->
+    <main class="main" id="main">
+        <img src="./i2.jpg" alt="Backgrond Image">
+    </main>
+
+
+    <script>
+        // SHOW MENU
+        const nevMenu = document.getElementById('nav-menu'),
+        navToggle =document.getElementById('nav-toggle'),
+        navClose = document.getElementById('nav-close')
+
+        // menu show
+        navToggle.addEventListener('click', () =>{
+            navMenu.classList.add('show-menu')
+        })
+
+        // Menu hidden
+        navClose.addEventListener('click', () =>{
+            navMenu.classList.remove('show-menu')
+        })
+        
+        
+    </script>
+</body> 
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // var ary = new Array();
+        // ary[0] = "Aman";
+        // ary[1] = 36;
+        // ary[2] = true;
+        // ary[4] = null;
+
+        // for(var f=0; f<5; f++){
+        //     ary[f] = prompt("Enter the value of array : ")
+        // }
+
+        // for(var a=0; a<5; a++){
+        //     document.write(ary[a]+ "<br>")
+        // }
+
+        // var arr = [
+        //     ["Aman",21,"b.tech", "male"],
+        //     ["Saurav",18,"b.tech", "male"],
+        //     ["mithlesh",22,"bca", "male"],
+        //     ["Babu",9,"diploma", "male"]
+        // ];
+        // document.write("<table border = '1px'cellspacing ='0'> ");
+        // for(var i=0; i<arr.length; i++){
+        //     document.write("<tr>")
+        //     for(var j=0; j<arr.length; j++){
+        //     document.write("<td>"+arr[i] [j]+ " </td>");}
+        //     document.write("</tr>")
+        //     document.write("<br>")
+        // };
+        // document.write("</table>")
+        
+
+        // var arr = ["Aman",21,"b.tech", "male"];
+        // document.write(arr + "<br>");
+        // arr[0] = "Saurav";
+        // document.write(arr + "<br>");
+        // arr[2] = "bca";
+        // document.write(arr+"<br> ");
+        // delete arr[1];
+        // document.write(arr+ "<br>");
+        // document.write(arr[1]);
+
+
+        //sorting --->
+
+
+        var arr = ["Saurav", "Babu", "Mutthu", "Aman"];
+        // document.write(arr +"<br>");
+        // arr.sort();
+        // document.write(arr +"<br>");
+        // arr.reverse();
+        // document.write(arr +"<br>");
+        // arr.pop()
+        // document.write(arr +"<br>");
+        // arr.push("Rahul")
+        // document.write(arr +"<br>");
+        // arr.shift();
+        // document.write(arr +"<br>");
+        // arr.unshift("mukul")
+        // document.write(arr +"<br>");
+        // var arr2 = ["Babita","Sabita","kajal"];
+        // var arr3 = arr.concat(arr2);
+        // document.write(arr3+"<br>");
+
+        // var arr4 = arr.join("/");
+        // document.write(arr4 + "<br>");
+
+        // var arr5 = arr.slice(1,3);
+        // document.write(arr5 +"<br><br>")
+
+
+        // var arr6 = arr.slice(-3,-1);
+        // document.write(arr6 + "<br>")
+
+        // arr.splice(2,2,"priyanshu","Avinash","rahul");
+        // document.write(arr + "<br>");
+
+        // arr.splice(-2,1,("Rahul", "Simran"));
+        // document.write(arr + "<br>");
+
+
+        // arr2 = Array.isArray(arr);
+        // document.write(arr2 + "<br>");
+
+
+        // arrp = 23;
+        // arr3 =Array.isArray(arrp);
+        // document.write(arr3  + "<br>");
+
+        // arr2 = arr.lastIndexOf("Mutthu");
+        // document.write(arr2 + "<br>");
+        
+        
+        // arr3 = arr.indexOf("Saurav",0);
+        // document.write(arr3 + "<br>");
+
+
+        // arr4 = arr.includes("Saurav");
+        // document.write(arr4 + "<br>");
+
+        var ages = [13,46,35,5,23];
+        document.write(ages + "<br><br>");
+
+        function checkAdult(age){
+            return age >= 18;
+        }
+        var adultAge = ages.some(checkAdult);
+        document.write(adultAge + "<br>");
+
+        var adultAge2 = ages.every(checkAdult);
+        document.write(adultAge2 + "<br>"); 
+
+        var findAdult =  ages.findIndex(checkAdult);
+        document.write(findAdult + "<br>");
+
+        var filterAge = ages.filter(checkAdult);
+        document.write(filterAge + "<br>");
+
+        var str = ["Rahul", "Aman", "Gabbar"];
+        // document.write(str + "<br");
+        // var b = Array.isArray(str);
+        // document.write(b);
+        // str.toString();
+        // document.write(str);
+
+
+
+        // document.write(str.valueOf());
+        // str.fill("Aman");
+        // document.write(str);
+
+        // str.forEach( function(value, index){
+        //     document.write(value + ":" + index + "<br>")
+        // })
+
+        function loop(aman,position){
+            document.write(position + " " + aman + "<br>")
+        };
+        str.forEach(loop);
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+
+
+
+        
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    
+   
+}
+header{
+    background-image: url(./i3.jpg);
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: darken; */
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.right-nav{
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+}
+
+#search{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.btn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+
+}
+
+.btn-sm{
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+
+.firstSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstHalf{
+    color: white;
+    width: 50%;
+}
+
+.box-main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondHalf{
+    height: 200px;
+    margin: 20px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.secondHalf img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.para1{
+    font-size:40px;
+    padding-bottom: 30px;
+}
+.button1{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: none;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+    
